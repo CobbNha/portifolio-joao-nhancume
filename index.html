@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfólio pessoal de João Nhancume.">
+  <title>Portfólio | João Nhancume</title>
+  <style>
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 2rem; background: #101827; color: #f3f4f6; }
+    main { width: min(100%, 720px); padding: clamp(2rem, 7vw, 4rem); border: 1px solid #334155; border-radius: 1.5rem; background: #172235; box-shadow: 0 24px 80px #0005; }
+    .tag { color: #7dd3fc; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; font-size: .8rem; }
+    h1 { margin: 1rem 0; font-size: clamp(2.5rem, 8vw, 4.5rem); line-height: 1.05; }
+    p { color: #cbd5e1; line-height: 1.7; font-size: 1.1rem; }
+    a { display: inline-block; margin-top: 1rem; padding: .8rem 1.1rem; border-radius: .7rem; background: #38bdf8; color: #082f49; font-weight: 700; text-decoration: none; }
+    a:hover { background: #7dd3fc; }
+    footer { margin-top: 3rem; color: #94a3b8; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="tag">Portfólio pessoal</div>
+    <h1>Olá, sou João Nhancume.</h1>
+    <p>Bem-vindo ao meu portfólio! Este é o início do meu espaço na web. Em breve, vou compartilhar aqui meus projetos, experiências e formas de contato.</p>
+    <a href="mailto:contato@example.com">Entre em contato</a>
+    <footer>© <span id="year"></span> João Nhancume</footer>
+  </main>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
